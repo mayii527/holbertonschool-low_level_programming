@@ -18,7 +18,7 @@ else
 num_positive = n;
 }
 last_digit = num_positive % 10;
-_putchar(last_digit * '0');
+_putchar(last_digit + '0');
 _putchar('\n');
 return (0);
 }
