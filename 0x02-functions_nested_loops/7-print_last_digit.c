@@ -6,19 +6,20 @@
  *
  * Return: the value of the last digit
  */
-int print_last_digit(int r)
+int print_last_digit(int n)
 {
 int last_digit;
 int num_positive;
-if (r <= -1)
+if (n <= -1)
 {
-num_positive = r * -1;
+num_positive = n * -1;
 }
 else
 {
-num_positive = r;
+num_positive = n;
 }
 last_digit = num_positive % 10;
+r = print_last_digit(98);
 _putchar('0' + r);
 _putchar('\n');
 return (0);
