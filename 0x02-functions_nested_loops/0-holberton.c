@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - Write a program that prints Holberton, followed by a new line.
+ * main - Prints "Holberton" followed by a new line.
  *
  *Return: Always 0
  */
