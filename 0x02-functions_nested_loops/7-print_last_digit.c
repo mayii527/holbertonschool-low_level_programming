@@ -1,4 +1,3 @@
-#include <limits.h>
 #include "holberton.h"
 /**
  * print_last_digit - Write a function that prints the last digit of a number.
@@ -19,7 +18,6 @@ else
 num_positive = n;
 }
 last_digit = num_positive % 10;
-r = print_last_digit(98);
 _putchar('0' + r);
 _putchar('\n');
 return (0);
