@@ -5,10 +5,10 @@
  *
  * Return: the value of the last digit
  */
-int print_last_digit(int n)
+int print_last_digit(long int n)
 {
-int last_digit;
-int num_positive;
+long int last_digit;
+long int num_positive;
 if (n <= -1)
 {
 num_positive = n * -1;
