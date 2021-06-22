@@ -13,6 +13,10 @@ if (n <= -1)
 {
 num_positive = n * -1;
 }
+else
+{
+num_positive = n;
+}
 last_digit = num_positive % 10;
 _putchar(last_digit + '0');
 _putchar('\n');
