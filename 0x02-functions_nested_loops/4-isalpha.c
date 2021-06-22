@@ -1,10 +1,11 @@
 #include "holberton.h"
 /**
- * main - Write a function that checks for alphabetic character.
+ * _isalpha - Write a function that checks for alphabetic character.
+ * @c: The character to be checked.
  *
  * Return: 1 if c is a letter, lowercase or uppercase, 0 otherwise.
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 if ((c >= 'a' && c <= 'z') ||
 (c >= 'A' && c <= 'Z'))
