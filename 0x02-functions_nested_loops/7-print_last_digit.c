@@ -19,6 +19,6 @@ num_positive = n;
 }
 last_digit = num_positive % 10;
 _putchar('0' + last_digit);
- _putchar('\n');
+_putchar('\n');
 return (last_digit);
 }
