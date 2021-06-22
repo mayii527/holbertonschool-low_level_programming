@@ -15,7 +15,7 @@ a = hour / 10;
 b = hour % 10;
 c = min / 10;
 d = min % 10;
-_putchar("%d", a, b, c, d);
+_putchar("%l%l:%l%l", a, b, c, d);
 _putchar('\n');
 }
 }
