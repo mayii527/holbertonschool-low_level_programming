@@ -2,21 +2,21 @@
 #include "holberton.h"
 /**
  * print_last_digit - Write a function that prints the last digit of a number.
- * @n: integer of the function.
+ * @r: integer of the function.
  *
  * Return: the value of the last digit
  */
-int print_last_digit(int n)
+int print_last_digit(int r)
 {
 int last_digit;
 int num_positive;
-if (n <= -1)
+if (r <= -1)
 {
-num_positive = n * -1;
+num_positive = r * -1;
 }
 else
 {
-num_positive = n;
+num_positive = r;
 }
 last_digit = num_positive % 10;
 _putchar('0' + r);
