@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * add - Write a function that adds two integers.
- * @1num: The first integer.
- * @2num: The second integer.
+ * @num1: The first integer.
+ * @num2: The second integer.
  *
  * Return: The result of the addition.
  */
