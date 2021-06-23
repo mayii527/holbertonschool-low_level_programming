@@ -14,11 +14,11 @@ a = hour / 10;
 b = hour % 10;
 c = min / 10;
 d = min % 10;
-_putchar('a');
-_putchar('b');
-_putchar(':')
-_putchar('c');
-_putchar('d');
+_putchar(a);
+_putchar(b);
+_putchar(':');
+_putchar(c);
+_putchar(d);
 _putchar('\n');
 }
 }
