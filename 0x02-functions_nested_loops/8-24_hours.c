@@ -6,9 +6,9 @@
 void jack_bauer(void)
 {
 int hour, min, a, b, c, d;
-for (hour = 0; hour <= 23; hour++)
+for (hour = '0'; hour <= '23'; hour++)
 {
-for (min = 0; min <= 59; min++)
+for (min = '0'; min <= '59'; min++)
 {
 a = hour / 10;
 b = hour % 10;
