@@ -2,16 +2,16 @@
 #include "stdio.h"
 /**
  * print_to_98 - check the code for Holberton School students.
- *@n:numbers
+ *@l:numbers
  *
  * Return: Always 0.
  */
 void print_to_98(int n)
 {
-int n = 0
-while (n <= 98)
+int l = 0
+while (l <= 98)
 {
-printf("%d, ", n++);
+printf("%d, ", l++);
 return (0);
 }
 }
