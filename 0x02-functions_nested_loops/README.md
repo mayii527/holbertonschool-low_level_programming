@@ -1,9 +1,13 @@
 **0x02-functions_nested_loops**
+
 **Requirements**
 
 _Allowed editors: vi, vim, emacs
+
 _All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+
 _All your files should end with a new line
+
 _A README.md file, at the root of the folder of the project is mandatory
 _Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
 _You are not allowed to use global variables
