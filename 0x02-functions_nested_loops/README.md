@@ -35,7 +35,6 @@ Write a program that prints Holberton, followed by a new line.
 _The program should return 0.
 
 **1-alphabet.c**
-
 Write a function that prints the alphabet, in lowercase, followed by a new line.
 
 _Prototype: void print_alphabet(void);
@@ -43,7 +42,6 @@ _Prototype: void print_alphabet(void);
 _You can only use _putchar twice in your code
 
 **2-print_alphabet_x10.c**
-
 Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.
 
 _Prototype: void print_alphabet_x10(void);
