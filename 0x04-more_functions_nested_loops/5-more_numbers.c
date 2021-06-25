@@ -6,15 +6,18 @@
  */
 void more_numbers(void)
 {
-int count = 0;
-int  n;
-while (count <= 9)
+count = 0;
+while(count <= 9)
 {
-for (n = 0; n <= 14; n++)
+for (int n = 0; n <= 14; n++)
 {
-putchar(n);
+if (n > 9)
+{
+_putchar('0' + (n / 10));
+}
+else
+_putchar('0' + n);
 }
 _putchar('\n');
-count++;
 }
 }
