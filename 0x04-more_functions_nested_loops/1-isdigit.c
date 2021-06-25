@@ -1,11 +1,11 @@
 #include "holberton.h"
 /**
- * _isupper - Check for uppercase characters
- * @c: uppercase character
+ * _isgigit - Check for uppercase characters
+ * @c: digito
  *
- * Return: 1- Uppercase character 0- Not uppercase character.
+ * Return: 1- digit  0- Not digit.
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
 if (c >= 48 && c <= 57)
 {
