@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _isgigit - Check for uppercase characters
+ * _isgigit -  Check for a digit
  * @c: digito
  *
  * Return: 1- digit  0- Not digit.
