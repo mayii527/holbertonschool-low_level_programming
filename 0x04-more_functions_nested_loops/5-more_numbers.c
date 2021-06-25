@@ -7,7 +7,7 @@
 void more_numbers(void)
 {
 count = 0;
-while(count <= 9)
+while (count <= 9)
 {
 for (int n = 0; n <= 14; n++)
 {
