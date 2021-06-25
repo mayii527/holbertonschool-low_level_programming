@@ -6,16 +6,21 @@
  */
 void more_numbers(void)
 {
-for (int i = 0; i <= 9; i++)
+int a;
+int i;
+int c;
+for (i = 0; i <= 9; i++)
 {
-for (int j = 0; j <= 14; j++)
+for (a = 0; a <= 14; a++)
 {
-if (j > 9)
+if (a > 9)
 {
-_putchar('0' + (j / 10));
+c = a % 10;
+_putchar('0' + (a / 10));
 }
 else
-_putchar('0' + j);
+c = a;
+_putchar('0' + c);
 }
 _putchar('\n');
 }
