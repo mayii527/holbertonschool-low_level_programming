@@ -19,5 +19,6 @@ else
 _putchar('0' + n);
 }
 _putchar('\n');
+count++;
 }
 }
