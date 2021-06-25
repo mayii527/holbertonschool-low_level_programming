@@ -3,7 +3,7 @@
  * print_diagonal - Print diagonal lines.
  * @n: Number of lines
  *
- * Return: There is no return value
+ * Return:  no return value
  */
 void print_diagonal(int n)
 {
@@ -11,7 +11,7 @@ int a;
 int b;
 if (n > 0)
 {
-for (a = 0; a < n; i++)
+for (a = 0; a < n; a++)
 {
 if (a == 0)
 {
@@ -20,7 +20,7 @@ _putchar('\n');
 }
 else
 {
-for (b = 0; b < a; j++)
+for (b = 0; b < a; b++)
 {
 _putchar(' ');
 }
