@@ -1,17 +1,19 @@
 #include "holberton.h"
 /**
- * _puts - Print a string
- * @str: Set of characters
+ * _strlen - Swap the value of two integers
+ * @s: Set of characters
  *
  * Return: Nothing
 */
-void _puts(char *str)
+
+int _strlen(char *s)
 {
-int n = 0;
-while (*(str + n) != '\0')
-{
-_putchar(*(str + n));
-n++;
-}
-_putchar('\n');
+	int i = 0;
+
+	while (*(s + i) != '\0')
+	{
+		i++;
+	}
+
+	return (i);
 }
