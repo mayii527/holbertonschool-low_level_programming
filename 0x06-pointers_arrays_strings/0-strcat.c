@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
  * _strcat - Concatenate a string to another string
- * @dest: Destination
- * @src: Source
+ * @dest: Destination string
+ * @src: Source string
  *
  * Return: Destination string as a pointer
  */
