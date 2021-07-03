@@ -13,7 +13,7 @@ while (*(dest + i) != '\0')
 i++;
 while (*(src))
 {
-*(dest + i) = *(src) != '\0');
+*((dest + i) = *(src) != '\0');
 i++;
 src++;
 }
