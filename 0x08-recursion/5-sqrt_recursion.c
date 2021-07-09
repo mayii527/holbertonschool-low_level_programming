@@ -14,8 +14,8 @@ int _sqrt_recursion(int n)
 }
 /**
  * check - checks for the square root of b
- * @a:guess at sqrt
- * @b: number to find sqrt of
+ * @a:square root
+ * @b: number
  *
  * Return: -1 or sqrt of b
  */
