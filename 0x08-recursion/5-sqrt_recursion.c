@@ -10,16 +10,16 @@ int _sqrt_recursion(int n)
         {
                 return (0);
         }
-        return (check(1, n));
+        return (_check(1, n));
 }
 /**
- * check - checks for the square root of b
+ * _check - checks for the square root of b
  * @a:square root
  * @b: number
  *
  * Return: -1 or sqrt of b
  */
-int check(int a, int b)
+int _check(int a, int b)
 {
         if (a * a == b)
         {
@@ -29,5 +29,5 @@ int check(int a, int b)
         {
                 return (-1);
         }
-        return (check(a + 1, b));
+        return (_check(a + 1, b));
 }
