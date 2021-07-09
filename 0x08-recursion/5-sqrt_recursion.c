@@ -10,7 +10,7 @@ int _sqrt_recursion(int n)
         {
                 return (0);
         }
-        return (check(1, n));
+        return ( check(1, n));
 }
 /**
  * check - checks for the square root of b
