@@ -29,5 +29,5 @@ int check(int a, int b)
         {
                 return (-1);
         }
-        return (check(a + 1, d));
+        return (check(a + 1, b));
 }
