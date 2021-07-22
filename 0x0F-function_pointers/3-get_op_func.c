@@ -1,6 +1,12 @@
 #include <stdlib.h>
 #include "3-calc.h"
 #include <string.h>
+/**
+ * get_op_func - Get the appropiate function according to the symbol
+ * @s: String
+ *
+ * Return: Pointer to a function.
+ */
 int (*get_op_func(char *s))(int, int)
 {
 op_t ops[] = {
