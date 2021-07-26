@@ -1,6 +1,6 @@
-# printf — Linux manual page.
+# printf - Linux manual page.
 
-## - Libraries.
+## Libraries.
 
 ### #include < stdio.h >
 
@@ -46,7 +46,7 @@ If no l modifier is present: the const char \* argument is expected to be a poin
 
 If an l modifier is present: the const wchar_t \* argument is expected to be a pointer to an array of wide characters. Wide characters from the array are converted to multibyte characters (each by a call to the wcrtomb(3) function, with a conversion state starting in the initial state before the first wide character), up to and including a terminating null wide character. The resulting multibyte characters are written up to (but not including) the terminating null byte. If a precision is specified, no more bytes than the number specified are written, but no partial multibyte characters are written. Note that the precision determines the number of bytes written, not the number of wide characters or screen positions. The array must contain a terminating null wide character, unless a precision is given and it is so small that the number of bytes written exceeds it before the end of the array is reached.
 
-## \_ Return value.
+## Return value.
 
 Upon successful return, these functions return the number of characters printed (excluding the null byte used to end output to strings).
 
