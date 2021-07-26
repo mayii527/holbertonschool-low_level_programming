@@ -4,7 +4,7 @@
 
 ### #include < stdio.h >
 
-### > int \_printf(const char \*format, ...);
+> ### int \_printf(const char \*format, ...);
 
 # DESCRIPTION.
 
@@ -22,7 +22,7 @@ All of these functions write the output under the control of a format string tha
 
 The format string is a character string, beginning and ending in its initial shift state, if any. The format string is composed of zero or more directives: ordinary characters (not %), which are copied unchanged to the output stream; and conversion specifications, each of which results in fetching zero or more subsequent arguments. Each conversion specification is introduced by the character %, and ends with a conversion specifier. In between there may be (in this order) zero or more flags, an optional minimum field width, an optional precision and an optional length modifier.
 
-### > printf("%\*d", width, num);
+> ### printf("%\*d", width, num);
 
 Conversion specifiers.
 
