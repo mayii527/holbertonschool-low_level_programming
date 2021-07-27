@@ -125,7 +125,7 @@ alex@ubuntu:~/c/printf$ cat main.c
 
 # Tasks.
 
-### 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life. `Mandatory`
+## 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life. `Mandatory`
 
 Write a function that produces output according to a format.
 
@@ -134,7 +134,7 @@ Write a function that produces output according to a format.
 - write output to stdout, the standard output stream
 - `format` is a character string. The format string is composed of zero or more directives. See `man 3 printf` for more detail. You need to handle the following conversion specifiers:
 
-* `c`
+* - `c`
 * `s`
 * `%`
 
@@ -148,7 +148,7 @@ Write a function that produces output according to a format.
 
 - GitHub repository: `printf`
 
-### 1. Education is when you read the fine print. Experience is what you get if you don't. `Mandatory`
+## 1. Education is when you read the fine print. Experience is what you get if you don't. `Mandatory`
 
 Handle the following conversion specifiers:
 
@@ -163,7 +163,7 @@ Handle the following conversion specifiers:
 
 - GitHub repository: `printf`
 
-### 2. Just because it's in print doesn't mean it's the gospel. `Mandatory`
+## 2. Just because it's in print doesn't mean it's the gospel. `Mandatory`
 
 Create a man page for your function.
 
