@@ -51,11 +51,9 @@ alex@ubuntu:~/c/printf$ cat main.c
 #include <stdio.h>
 #include "holberton.h"
 
-/\*\*
-
-- main - Entry point
--
-- Return: Always 0
+/*- main - Entry point
+*-
+*- Return: Always 0
   */
   int main(void)
   {
