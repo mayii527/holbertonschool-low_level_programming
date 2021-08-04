@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_list- a function that prints all
+ * print_listint - a function that prints all
  *             the elements of a list.
  * @h: pointer start a list
  * Return: number
