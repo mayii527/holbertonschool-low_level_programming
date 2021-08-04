@@ -12,7 +12,7 @@ for (i = 0; h != NULL;)
 {
 printf("%i\n", h->n);
 h = h->next;
- i++;
+i++;
 }
 return (i);
 }
