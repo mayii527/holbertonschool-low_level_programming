@@ -11,5 +11,5 @@ for (; h != NULL; i++)
 {
 h = h->next;
 }
-return (i);;
+return (i);
 }
