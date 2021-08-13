@@ -35,7 +35,7 @@ fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
 if (fd == -1)
 return (-1);
 if (text_content != NULL)
-wr = write(fd, text_content,_strlen(text_content));
+wr = write(fd, text_content, _strlen(text_content));
 close(fd);
 if (wr == -1)
 return (-1);
