@@ -1,20 +1,14 @@
 # Create your Makefile.
 CC = gcc
-SRC = main.c school.c
+SRC = school.c main.c
 OBJ = $(SRC:.c=.o)
 NAME = school
 CFLAGS = -Wall -Werror -Wextra -pedantic
-
 all: $(OBJ)
-	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
-
-.PHONY: clean oclean fclean re
+	$(CC) $(OBJ) $(CLFAGS) -o $(NAME)
 clean:
 	$(RM) *~ $(NAME)
-
 oclean:
 	$(RM) $(OBJ)
-
 fclean: clean oclean
-
-re: all oclean
+re: fclean all
